@@ -1,0 +1,79 @@
+html,
+body{
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   background-image: url("mytodolistbgpic1.avif");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+#wrapper h2{
+    display:flex; 
+    justify-content: center;
+    color:white;
+    background-color:blue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:xx-large;
+    line letter-spacing: 10px; 
+    
+    
+    
+      
+    
+}
+input{
+    border-radius: 5px;
+    border: 2px solid black ;
+    margin-top:30px;
+    height:2.5em;
+    width:250px;
+    padding-left:10px;
+}
+
+input:active{
+    border:none;
+}
+#wrapper{
+    height:500px;
+    width:400px;
+    margin:200px auto;
+    /* background-color:#1f2029; */
+    border-radius:10px;
+    padding:30px;
+    background-color: whitesmoke ;
+    opacity: 75%;
+}
+
+button{
+    /* margin-top:20px; */
+    background-color:springgreen;
+    border-radius: 10px;
+    /* border-style: double red; */
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 3px;
+    font-size: larger;
+    font-style: italic;
+    border: 2px solid black;
+    color:white;
+}
+
+button:hover{
+    cursor:pointer;
+}
+#todoList{
+    color:blue;
+    font-size:28px;  
+    margin-top:10px; 
+}
+
+#todoList p{
+  margin:20px 0px;
+  font-style: italic;
+}
+
+#todoList p:hover{
+  cursor: pointer;
+}
